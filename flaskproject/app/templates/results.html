@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Product Manager!</title>
+          <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="static/style.css" />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    </head>
+    <body>
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+<nav>
+  <div class="nav-wrapper">
+    <img id="bob" src="https://cdn.pixabay.com/photo/2014/04/03/09/58/man-309487_960_720.png">
+    <ul class="right hide-on-med-and-down">
+      <li><a href="/">Product Manager</a></li>
+      <!--:( RIP bob-->
+    </ul>
+  </div>
+</nav>
+        <div id="results_font">
+            <p id="line1">
+                It will cost {{buy_stock}} dollars to purchase {{buyinvt}} of the {{product}}. 
+            </p>
+            <p id="line2">
+             If you sell all of your current inventory, you will make {{profit_cur}} dollars. 
+            </p>
+            <p id="line3">
+            If you sell your current inventory and the inventory you are purchasing, you will make {{profit_after}} dollars. 
+            </p>
+            <p id="line3">
+            So far you have made {{end_of_year}} dollars this year. 
+            </p>
+            <p id="line4">
+            To reach your goal, you need to make {{end_of_year_sales}} dollars or sell {{goal}} of the {{product}}.    
+            </p>
+        </div>
+    </body>
+</html>
